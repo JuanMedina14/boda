@@ -483,7 +483,8 @@ form textarea:focus {
   
  
  .cabecera__titulo{
-  width:100%;
+  width:150%;
+  margin: auto;
  }
  
  .cabecera__fecha{
