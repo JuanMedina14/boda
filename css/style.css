@@ -24,6 +24,12 @@ html {
 
 .cabecera__titulo{
   width:40%;
+  display: none;
+}
+
+.cabecera__titulo2{
+  width:35%;
+ 
 }
 
 body {
@@ -483,10 +489,16 @@ form textarea:focus {
 
 @media screen and (max-width: 768px) {
   
- 
+  .cabecera__titulo2{
+    display: none;
+  }
+
+
  .cabecera__titulo{
   width:100%;
   margin: auto;
+  
+  
  }
  
  .cabecera__fecha{
@@ -567,11 +579,16 @@ form textarea:focus {
 
 
 @media screen and (max-width: 500px) {
+  .cabecera__titulo2{
+    display: none;
+  }
+  
   .cabecera__titulo {
     font-size: 12rem;
     width: 85%;
     text-align: center;
     top: 50%;
+    display: flex;
   }
 
   .cabecera__texto {
@@ -771,3 +788,4 @@ form textarea:focus {
 
  
 }
+
