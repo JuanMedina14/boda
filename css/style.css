@@ -23,8 +23,7 @@ html {
 }
 
 .cabecera__titulo{
-  width:50%;
-  margin-top: auto;
+  width:40%;
 }
 
 body {
@@ -570,6 +569,7 @@ form textarea:focus {
 @media screen and (max-width: 500px) {
   .cabecera__titulo {
     font-size: 12rem;
+    width: 85%;
     text-align: center;
     top: 50%;
   }
@@ -624,7 +624,7 @@ form textarea:focus {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-top: 115px;
+    padding-top: 200px;
     height: 480px;
     row-gap: 3%;
   }
@@ -635,15 +635,19 @@ form textarea:focus {
 
   .ceremonia__text {
     padding: 0;
-    width: 169%;
+    width: 200%;
   }
 
   .ceremonia__icono {
-    width: 60%;
+    width: 80%;
   }
 
   .btn3 {
     display: none;
+  }
+
+  .codigo{
+    margin: 0 0 20px 15px;
   }
 
 
@@ -715,20 +719,20 @@ form textarea:focus {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
   
   .ceremonia {
-    height: 70vh;
+    height: 60vh;
   }
 
   .ceremonia__text{
-    width: 180%;
+    width: 160%;
   }
 
   .codigo{
     width: 180%;
     font-size: 1.1em;
-    margin: 0 0px 60px 0px;
+    margin: 10px 0px 40px 35%;
     font-family: 'Courier New', Courier, monospace;
   }
   
