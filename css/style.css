@@ -23,7 +23,7 @@ html {
 }
 
 .cabecera__titulo{
-  width: 60%;
+  width:50%;
   margin-top: auto;
 }
 
@@ -83,7 +83,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 90vh;
   gap: 0px 20px;
 }
 
@@ -100,7 +100,7 @@ main {
 
 .ceremonia__icono {
   width: 35%;
-  margin-bottom: -25px;
+  margin-bottom: -40px;
 }
 
 h3 {
@@ -108,6 +108,10 @@ h3 {
   font-family: "Dancing Script", cursive;
   color: #c06f12;
   margin-bottom: 20px;
+}
+
+.codigo{
+  font-size: 2em;
 }
 
 .ceremonia__text {
@@ -118,7 +122,6 @@ h3 {
 }
 
 .ceremonia__mapa {
-  margin-top: 30px;
   padding: 10px 20px;
   border: #c06f12 1px solid;
   border-radius: 5px;
@@ -483,7 +486,7 @@ form textarea:focus {
   
  
  .cabecera__titulo{
-  width:150%;
+  width:100%;
   margin: auto;
  }
  
@@ -715,7 +718,18 @@ form textarea:focus {
 @media screen and (max-width: 375px) {
   
   .ceremonia {
-    padding-top: 115px;
+    height: 70vh;
+  }
+
+  .ceremonia__text{
+    width: 180%;
+  }
+
+  .codigo{
+    width: 180%;
+    font-size: 1.1em;
+    margin: 0 0px 60px 0px;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   .ceremonia__item1 {
