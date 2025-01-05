@@ -749,7 +749,7 @@ form textarea:focus {
   .codigo{
     width: 180%;
     font-size: 1.1em;
-    margin: 30px 0px 40px;
+    margin: 30px 0px 40px 20px;
     font-family: 'Courier New', Courier, monospace;
   }
   
